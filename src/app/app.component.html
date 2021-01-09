@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">{{ title }}</mat-toolbar>
+
+<mat-card class="product-card" *ngFor="let product of products">
+  <mat-card-title>{{product.productName}}</mat-card-title>
+  <mat-card-subtitle>{{product.company}}</mat-card-subtitle>
+  <mat-card-content>Rs. {{product.price}}</mat-card-content>
+</mat-card>
+
+<div class="add-product-link">
+  <a routerLink="/addProduct">Add New Product</a>
+</div>
+
+<router-outlet></router-outlet>

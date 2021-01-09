@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Wireless Mouse",
+      "price": 550,
+      "company": "Logitech"
+    },
+    {
+      "id": 2,
+      "productName": "Wireless Headset",
+      "price": 850,
+      "company": "iBall"
+    },
+    {
+      "id": 3,
+      "productName": "Mouse Pad-Large Size",
+      "price": 350,
+      "company": "RiaTech"
+    },
+    {
+      "productName": "12MP Camera",
+      "company": "Samsung",
+      "price": "2500",
+      "id": 4
+    }
+  ]
+}

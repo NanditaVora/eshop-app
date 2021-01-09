@@ -1,0 +1,25 @@
+<form class="product-form">
+    <div>
+        <h3>Enter New Product Details Here....</h3>
+    </div>
+    <div>
+        <mat-form-field>
+            <input matInput [(ngModel)]="product.productName" name="productName" placeholder="Product Name">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field>
+            <input matInput [(ngModel)]="product.company" name="company" placeholder="Company Name">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field>
+            <input matInput [(ngModel)]="product.price" name="price" placeholder="Product Price (Rs.)">
+        </mat-form-field>
+    </div>
+    <div>
+        <button id="addButton" mat-raised-button color="primary" type="submit" (click)="addProduct()" >Add</button>
+        |
+        <button id="cancelButton" mat-raised-button color="primary" type="submit" (click)="cancelAdd()">Cancel </button>
+    </div>
+</form>

@@ -1,0 +1,12 @@
+.product-card{
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.add-product-link{
+    margin: 20px;
+    border: 1px;
+    background-color: primary;
+}
