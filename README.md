@@ -73,3 +73,5 @@ To localize your app, follow these general steps:
         - Alternative Command :: ng xi18n --output-path src/locale
 - Merge translations into the app.
 - Deploy multiple locales.
+    - Deployed on github
+    - Access link :: `https://nanditavora.github.io/eshop-app/fr/`

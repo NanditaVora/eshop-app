@@ -7,7 +7,10 @@
       "i18n": {
         "sourceLocale":"en-US",
         "locales": {
-          "fr": "src/locale/messages.fr.xlf"
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf",
+            "baseHref": ""
+          }
         }
       },
       "projectType": "application",
@@ -37,6 +40,9 @@
             "scripts": []
           },
           "configurations": {
+            "fr": {
+              "localize": ["fr"]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -75,6 +81,9 @@
           "configurations": {
             "production": {
               "browserTarget": "eshop-app:build:production"
+            },
+            "fr": {
+              "browserTarget": "eshop-app:build:fr"
             }
           }
         },
