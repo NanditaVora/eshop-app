@@ -1,1 +1,5 @@
-<p>product-view works!</p>
+<mat-card class="product-card" *ngFor="let product of products">
+    <mat-card-title>{{product.productName}}</mat-card-title>
+    <mat-card-subtitle>{{product.company}}</mat-card-subtitle>
+    <mat-card-content>{{product.price | currency : 'en-IN'}}</mat-card-content>
+</mat-card>

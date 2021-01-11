@@ -46,3 +46,30 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Get All Products :: http://localhost:3000/products
 - Post Product Data :: http://localhost:3000/products
+
+### Deployment
+
+- This app is deployed at https://nanditavora.github.io/eshop-app/
+- Reference Links for deployment:
+    - https://angular.io/guide/deployment#deploy-to-github-pages
+    - https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
+
+### Internationalization
+
+Reference : https://angular.io/guide/i18n
+
+**Steps to localize your app**
+
+To localize your app, follow these general steps:
+
+- Add the localize package.
+    **`ng add @angular/localize`**
+- Refer to locales by ID.
+- Format data based on locale.
+- Prepare templates for translations.
+- Work with translation files.
+    1. Extract the source language file. 
+        - Command Failed :: ng extract-i18n --output-path src/locale 
+        - Alternative Command :: ng xi18n --output-path src/locale
+- Merge translations into the app.
+- Deploy multiple locales.

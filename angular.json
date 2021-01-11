@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "eshop-app": {
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "fr": "src/locale/messages.fr.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,6 +19,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",

@@ -1,10 +1,6 @@
-<mat-toolbar color="primary">{{ title }}</mat-toolbar>
+<mat-toolbar color="primary" i18n="page title | App Title for translation">{{ title }}</mat-toolbar>
 
-<mat-card class="product-card" *ngFor="let product of products">
-  <mat-card-title>{{product.productName}}</mat-card-title>
-  <mat-card-subtitle>{{product.company}}</mat-card-subtitle>
-  <mat-card-content>Rs. {{product.price}}</mat-card-content>
-</mat-card>
+<app-product-view></app-product-view>
 
 <div class="add-product-link">
   <a routerLink="/addProduct">Add New Product</a>
