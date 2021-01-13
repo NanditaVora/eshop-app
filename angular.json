@@ -8,7 +8,8 @@
         "sourceLocale":"en-US",
         "locales": {
           "fr": {
-            "translation": "src/locale/messages.fr.xlf"
+            "translation": "src/locale/messages.fr.xlf",
+            "baseHref": "docs"
           }
         }
       },
